@@ -58,3 +58,21 @@
   color: black;
   font-weight: 550;
 }
+
+
+.hamburgerMenu {
+  position: fixed;
+  top: 10px;
+  left: auto;
+  right: 0cm;
+  bottom: auto;
+  font-size: 16px;
+  background-color: #999;
+}
+
+
+
+
+
+
+

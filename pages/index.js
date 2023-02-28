@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
 import styles from '../styles/Home.module.css';
 import Layout, { siteTitle } from '../components/Layout';
@@ -7,6 +6,9 @@ import utilStyle from "../styles/utils.module.css";
 
 import Link from 'next/link';
 import { getPostsData } from '../lib/post';
+
+
+
 
 
 //SSGの場合
@@ -61,6 +63,15 @@ export default function Home({ allPostsData}) {
             </article>
           ))};
 
+        </div>
+      </section>
+
+
+      <section>
+        <div className={utilStyle.hamburgerMenu}>
+          <p>ホーム</p>
+          <p>プロフィール</p>
+          <p>記事を追加</p>
         </div>
       </section>
     </Layout>
